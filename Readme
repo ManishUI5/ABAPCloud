@@ -1,0 +1,20 @@
+ABAP Clean 
+Style guide:
+https://github.com/SAP/styleguides/blob/main/clean-abap/CleanABAP.md
+Introduction:
+https://blogs.sap.com/2021/03/17/why-clean-abap-a-foundation-for-improvements
+You want to contribute to the Style guide?
+https://github.com/SAP/styleguides/blob/main/CONTRIBUTING.md
+https://github.com/SAP/styleguides/blob/main/GOVERNANCE.md
+
+
+Code Pal 
+Code pal (Classic)
+https://github.com/SAP/code-pal-for-abap
+https://blogs.sap.com/2022/05/05/how-to-enable-clean-code-checks-for-abap
+Available for on-premise: AS ABAP 7.40 SP08 (++), not remote-enabled 
+NEW: Code pal (Cloud Edition)
+https://github.com/SAP/code-pal-for-abap-cloud/ 
+https://blogs.sap.com/2023/09/11/clean-code-checks-for-abap-cloud-edition 
+Available for Cloud + on-premise: AS ABAP 7.58 (2023), remote-enabled
+Including Quick fixes to automate code adaptation (ADT-only)  
