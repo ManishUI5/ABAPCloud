@@ -17,8 +17,46 @@ Best-case scenario describes an up-to-date system on the latest release, with cl
 Follow SAP’s Continuous Innovations in Clean core strategy.
 
 Path
-Apply 4E Framework
+Apply 4E Framework 
+  Embrace - Implementing Standard SAP with public cloud mindset using SAP best Practice 
+  Elevate - Use best Practice to build specfic Process enabled by SAP 
+  Enhance - process by addressing gaps in Standard SAP technology 
+  Exclude - Process that are deemed out of scope , supported by manual process 
 Classify and group items to Embrace standard, Elevate / Enhance with new innovations and Exclude/Remove unused custom elements.
 Keep the core clean - Establish and monitor clean core governance. Document technical debt. Measure the clean core adoption. Ensure development teams follow clean core approach.
 
 Perform gap analysis and identify REFW list. Validate gaps against future product roadmaps
+
+Setup goverence team/Board 
+Report - SAP S/4 Embedded Analystics , SAC , SAP Fiori 
+ABAP report to be approved by Goverence 
+Enhancement and form - Cloud ABAP code , BTP Pro-code , RAP , Native Mobile App 
+Classic ABAP to be approved 
+Workflow and Automation - Standard workflow , Flexiable workflow , SAP BPA , SAP workzone 
+ABAP workflow to be approved 
+Move from Tier 3 to Tier 1 
+Clean coreTier 1 - ABAP CLoud , Developer extensibility , Key user extensibility , Side by Side extension 
+Tier 1 is upgrade stable development (ABAP Cloud on ABAP stack or BTP Service) 
+Lean core Tier 2 - Use of Non-released API , create wrapper API and release , when SAP api is available delete customer wrapper
+
+Not Clean Core - Classic Extension , Implict , cloning SAP code etc 
+Not upgrade stable 
+Complex Customization Needs: Organizations may have complex and unique business requirements that necessitate classical development rather than leveraging a clean core. This allows them to preserve essential custom functionalities.
+
+Less support of ABAP Cloud to few modules (for example in SAP Extended Warehouse Management (EWM) and SAP Master Data Governance modules (MDG)) : Many of the process and customization in few modules like EWM , MDG are still classical as ABAP cloud is still to mature in these modules.
+
+Some business processes or enhancements (e.g., VOFM routines, BAdIs, enhancement points) are still only available in classical ABAP
+
+Not all SAP standard transactions are Fiori-enabled yet. SAP also has Webdynpro applications. Thus, any customizations in these transactions need classical Tier 3 developments. 
+
+The other factors could be :
+
+Legacy System Dependencies: Many companies have existing legacy systems that require integration with SAP S/4HANA, leading to higher classical development activities to accommodate specific business processes that are not covered by standard features.
+Customization Culture: Historically, organizations have heavily customized their ERP environments. This culture persists, even as companies transition to newer platforms like S/4HANA, leading to continued preference for customization through classical development.
+Lack of Adoption of Extension Platforms: While SAP has introduced platforms like SAP BTP for extensions, not all organizations have adopted these solutions due to factors such as costs, skill shortages, or transitional development strategies.
+Gradual Transition Process: The move from on-premise systems to S/4HANA often involves phased migrations, during which traditional approaches and classical development practices might be utilized temporarily.
+Insufficient Knowledge and Training: There may be a lack of awareness or training on maintaining a clean core, resulting in higher classical development as organizations continue approaches familiar from previous SAP versions.
+
+Benefit of Clean core 
+1. Long term cost saving - 3-5% reduction in Upgrade effort , shorter remdediation effort, shorter conversion cycle 
+2. Predictable & Easier upgrade - 
