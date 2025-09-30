@@ -15,7 +15,10 @@ Run to New
 Always keep the SAP S/4HANA core clean with continuous governance by aligning to standard SAP when possible.
 Best-case scenario describes an up-to-date system on the latest release, with cloud compliant extensions as well as integration, with optimal data quality and process design. 
 Follow SAP’s Continuous Innovations in Clean core strategy.
-
+Blogs explaining extensionblity 
+https://community.sap.com/t5/technology-blog-posts-by-sap/introducing-sap-application-extension-methodology-version-2-0/ba-p/13543483 
+https://www.sap.com/documents/2022/10/52e0cd9b-497e-0010-bca6-c68f7e60039b.html 
+https://www.sap.com/documents/2023/05/b0bd8ae6-747e-0010-bca6-c68f7e60039b.html
 Path
 Apply 4E Framework 
   Embrace - Implementing Standard SAP with public cloud mindset using SAP best Practice 
@@ -65,6 +68,7 @@ Benefit of Clean core
 https://api.sap.com/products/SAPS4HANACloud/onstackextensibility/bointerface
 Path Forward
  Build a decision framework
+https://github.com/SAP-samples/partner-reference-application 
 
 SAP Event , BTE , Business object etc 
 https://asapio.com/docs/ 
