@@ -1,0 +1,24 @@
+Get Clean 
+Business processes to be standardized
+Customizations to be replaced using clean core development approach
+Obsolete customizations  to be decommissioned 
+Technology debt to be reduced and created as “informed decisions”
+Modernize integrations, extensions & automations
+
+Stay Clean 
+Zero-modification policy to be applied
+Use modern integration patterns - leverage API & Event Economy
+Introduce incremental innovation with SAP BTP (or other cloud platforms)
+Cloning of SAP standard functionality to be avoided
+
+Run to New
+Always keep the SAP S/4HANA core clean with continuous governance by aligning to standard SAP when possible.
+Best-case scenario describes an up-to-date system on the latest release, with cloud compliant extensions as well as integration, with optimal data quality and process design. 
+Follow SAP’s Continuous Innovations in Clean core strategy.
+
+Path
+Apply 4E Framework
+Classify and group items to Embrace standard, Elevate / Enhance with new innovations and Exclude/Remove unused custom elements.
+Keep the core clean - Establish and monitor clean core governance. Document technical debt. Measure the clean core adoption. Ensure development teams follow clean core approach.
+
+Perform gap analysis and identify REFW list. Validate gaps against future product roadmaps
